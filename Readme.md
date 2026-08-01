@@ -5,15 +5,7 @@ OVA_Breast (mikroarray podaci genske ekspresije, deo OVA/Ovarian kolekcije, Open
 
 ## 🚀 Pokretanje
 
-### 1. Preuzimanje sirovih podataka (obavezno pre pokretanja notebook-a)
-
-Originalni `.arff` fajl (~108MB) nije uključen u repo zbog GitHub limita od 100MB po
-fajlu. Preuzmi ga sa OpenML-a i postavi na navedenu putanju:
-
-- Izvor: https://openml.org/search?type=data&id=1128
-- Putanja: `data/OVA_Breast.arff`
-
-### 2. Setup okruženja
+### 1. Setup okruženja
 
 ```bash
 # Kreiraj virtuelno okruženje
@@ -86,15 +78,6 @@ Kompletan tekstualni deo rada nalazi se u `zapisnik.pdf` (izvorni LaTeX kod u
 `zapisnik.tex`), i sadrži: tekst zadatka, opis podataka, opis obrade, opis i tumačenje
 rezultata.
 
-## 📌 Napomena o izvorima
-
-Sav kod je samostalno napisan za potrebe ovog seminarskog rada, korišćenjem
-standardnih biblioteka (`scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`).
-Struktura projekta i metodološki pristup delom su inspirisani sličnim radom iz iste
-oblasti (klasterovanje tekstualnih podataka Farm-Ads), ali je kompletna implementacija
-prilagođena i napisana za specifičnu prirodu OVA_Breast podataka (gene expression,
-visoka dimenzionalnost).
-
 ---
 
-**Autor**: Nedeljko
+**Autor**: Luka Nedeljković 147/2021
