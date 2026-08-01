@@ -8,3 +8,16 @@ __pycache__/
 .vscode/
 *.log
 .env
+
+# Originalni ARFF je prevelik za GitHub (>100MB) - preuzima se sa OpenML, videti Readme
+data/OVA_Breast.arff
+
+# Pun standardizovani skup (10935 atributa, ~135MB kao pickle) je takodje prevelik -
+# regenerise se lokalno pokretanjem notebook-a, ne verzionise se
+data/data_preprocessed_full.pkl
+
+# LaTeX pomocni fajlovi
+*.aux
+*.log
+*.toc
+*.out
