@@ -21,3 +21,4 @@ data/data_preprocessed_full.pkl
 *.log
 *.toc
 *.out
+PLAN.md
